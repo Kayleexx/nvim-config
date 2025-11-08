@@ -1,6 +1,7 @@
 {
   "extras": [
-
+    "lang.rust",
+    "lang.toml"
   ],
   "install_version": 8,
   "news": {
