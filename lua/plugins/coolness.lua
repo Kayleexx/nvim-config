@@ -63,14 +63,16 @@ return {
     end,
   },
   {
+    {
     "echasnovski/mini.animate",
     event = "VeryLazy",
     opts = function()
       local animate = require("mini.animate")
       return {
-        scroll = { enable = true, timing = animate.gen_timing.linear({ duration = 150, unit = "total" }) },
-        cursor = { enable = true, timing = animate.gen_timing.linear({ duration = 80, unit = "total" }) },
+        scroll = { timing = animate.gen_timing.linear({ duration = 150, unit = "total" }) },
+        cursor = { timing = animate.gen_timing.linear({ duration = 80, unit = "total" }) },
       }
     end,
   },
+  }
 }
