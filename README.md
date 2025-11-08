@@ -1,6 +1,6 @@
 # My Neovim Config
 
-A highly aesthetic, anime-inspired Neovim configuration built on [LazyVim](https://github.com/LazyVim/LazyVim). Tuned for Rust development.
+A highly aesthetic, anime-inspired Neovim configuration built on [LazyVim](https://github.com/LazyVim/LazyVim). 
 
 ## Aesthetics
 - **Theme:** Kanagawa (Ronin Gold custom overrides).
